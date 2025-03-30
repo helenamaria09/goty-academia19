@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+main {
+  width: 80%;
+  max-width: 1000px;
+  height: 80vh;
+  margin-top: 10vh;
+
+}
+main header {
+  width: 100%;
+  height: 12vh;
+
+}
+#logo-header {
+  width: 20%;
+  height: 10vh;
+  margin-top: -3vh;
+  float: left;
+display: flex;
+margin-left: 29.5%;
+
+
+
+}
+#logo-header img {
+  height: 30vh;
+  margin-top: -10vh;
+
+}
+main nav {
+  width: 100%;
+  height: 4vh;
+  background-color: #fc65c4;
+  box-shadow: 60px -16px #fccfec;
+
+}
+main nav ul {
+  float: left;
+  list-style: none;
+  width: 100%;
+}
+main nav ul li {
+  display: inline;
+}
+main ul li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 0.1vh;
+  padding: 2vh 2%;
+  margin-left: 10.7%;
+  transition: all 1s;
+  float: left;
+  
+}
+main ul li a:hover {
+    color:#fccfec;
+    background-color: #FFF;
+}
+main section {
+  width: 100%;
+  height: 55vh;
+  background-color: #ffd7f1;
+  box-shadow: 60px -16px #fc65c4;
+
+}
+main section article {
+  width: 40%;
+  height: 50vh;
+  float: left;
+  margin-left: 6.6%;
+  margin-top: 10%; 
+  text-align: center;
+}
+main section article h1{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+display: flexbox;
+margin-top: 30;  
+color: #000000;
+}
+main section article iframe{
+  height: 35vh;
+}
+#h1-video{
+  margin-top: 0.1vh;
+  margin-bottom: 0vh;
+
+
+}
+main section article p{
+  margin-top: 6%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: #000000;
+}
+
+
+main footer {
+  width: 100%;
+  height: 2.9vh;
+  background-color: #fc65c4;
+  background-size: 12%;
+  background-repeat: no-repeat;
+  background-position-x: 3%;
+  background-position-y: center;
+
+}
+main footer small{
+  text-align: center;
+  color:#ffffff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 6vh;
+  font-size: 0.7em;
+  width: 100%;
+  float: left;
+  margin-top:-7vh;
+}
+h1-id{
+  margin-top: -0;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: #f9f9f9; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  
+}
+
+
+.container p {
+  font-family: Arial, sans-serif; 
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"],
+.container textarea {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0;
+  width: 100%;
+}
+
+.container button {
+  background-color: #fc65c4; 
+  color: #ffffff; 
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.container button:hover {
+  background-color: #f5aedb; 
+}
+h2{
+  text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}

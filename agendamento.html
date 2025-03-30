@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendamento | Academia RosaFit</title>
+    <link rel="stylesheet" href="./css/agendamento.css" />
+    <link rel="shortcut icon" href="./img/Adobe Express - file.png" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="logo-header">
+          <img src="./img/Adobe Express - file.png" alt="Logo RosaFit" />
+        </div>
+      </header>
+      <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./cadastrese.html">Cadastre-se</a></li>
+            <li><a href="./manutencao.html">Manutenção</a></li>
+            <li><a href="./Agendamento.html">Agendamento</a></li>
+        </ul>
+      </nav>
+      <section class="container">
+        <h2>Agende seu horário com o Personal Trainer</h2>
+        <form>
+            <input type="text" placeholder="Nome Completo" required>
+            <input type="email" placeholder="E-mail" required>
+            <input type="tel" placeholder="Telefone" required>
+            
+            <label for="horario">Seu horário:</label>
+            <input type="datetime-local" id="horario" name="horario" required>
+
+            <select id="personal" name="personal" required>
+                <option value="">Selecione o Personal Trainer</option>
+                <option value="maria">Maria</option>
+                <option value="joao">João</option>
+                <option value="pedro">Pedro</option>
+            </select>
+
+            <button type="submit">Agendar Sessão</button>
+        </form>
+    </section>
+    </main>
+  </body>
+</html>

@@ -1,1 +1,1 @@
-# goty-academia19
+# layout-1A

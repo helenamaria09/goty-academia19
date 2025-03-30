@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manutenção | Academia GOTY</title>
+    <link rel="stylesheet" href="./css/cadastrese.css" />
+    <link rel="shortcut icon" href="./img/Adobe Express - file.png" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="logo-header">
+          <img src="./img/Adobe Express - file.png" alt="Logo GOTY" />
+        </div>
+      </header>
+      <nav>
+        <ul>
+            <li><a href="./index.html">GOTY</a></li>
+            <li><a href="./cadastrese.html">Cadastre-se</a></li>
+            <li><a href="./manutencao.html">Manutenção</a></li>
+            <li><a href="./agendamento.html">Agendamento</a></li>
+        </ul>
+      </nav>
+
+      <section class="container">
+        <h2>Manutenção de Aparelhos </h2>
+        <form>
+            <input type="text" placeholder="Nome Completo" required>
+            <input type="email" placeholder="E-mail" required>
+            <input type="tel" placeholder="Telefone" required>
+            <label for="aparelho"></label>
+            <select id="aparelho" name="aparelho" required>
+                <option value="">Escolha o aparelho</option>
+                <option value="esteira">Esteira</option>
+                <option value="bicicleta">Bicicleta</option>
+                <option value="legpress">Leg Press</option>
+                <option value="halteres">Halteres</option>
+                <option value="outros">Outros</option>
+                <input type="number" placeholder="Código do aparelho" required>
+            </select>
+
+            <label for="problema"></label>
+            <textarea id="problema" name="problema" placeholder="Descreva o problema do aparelho..." required style="resize: none; width: 100%; height: 150px; font-family: Arial, sans-serif; font-size: 14px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;"></textarea>
+
+            <button type="submit">Solicitar Manutenção</button>
+        </form>
+      </section>
+
+    </main>
+  </body>
+</html>
+
+
+
+
